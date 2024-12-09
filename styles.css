@@ -1,0 +1,98 @@
+
+
+html, body {
+    height: 1600px;
+    width: 720px;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #333;
+    padding: 10px 0;
+    margin: 2px;
+    width: 600px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
+h1 {
+    
+    color: rgb(9, 169, 180);
+    text-decoration: none;
+    font-size: 40px;
+    font-family: verdena;
+    
+}
+h2 {
+    color:rgb(68, 0, 0);
+    text-align: center;
+
+}
+iframe{
+    width: 720px;
+    height: 1600px;
+    margin-right: 20px;
+    border: 3px;
+    padding: 2px;
+box-shadow: 0 0 10px black ;
+}
+/* Reels Section */
+.reels-container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.reels-container iframe {
+    margin: 10px 0;
+}
+
+
+footer {
+    width: 600px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-bottom:5px ;
+    padding-bottom: 5px;
+   
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 5px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 10px;
+}
